@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>THY LAW</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+    .transition, p, ul li i:before, ul li i:after {
+      transition: all 0.25s ease-in-out;
+    }
+
+    .flipIn, h1, ul li {
+      animation: flipdown 0.5s ease both;
+    }
+
+    .no-select, h2 {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+      perspective: 900;
+      overflow-y: scroll;
+      background-color: #212125; 
+      font-family: "Titillium Web", sans-serif;
+      color: #cf4f4f;
+    }
+
+    body {
+      min-height: 0;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 10px 0 0 #0011ff inset;
+      background-color: #1a191a;
+      max-width: 60%;
+      padding: 30px;
+    }
+    @media (max-width: 550px) {
+      body {
+        box-sizing: border-box;
+        transform: translate(0, 0);
+        max-width: 100%;
+        min-height: 100%;
+        margin: 0;
+        left: 0;
+      }
+    }
+
+    .rules h1, h2 {
+      color: #0011ff;
+    }
+
+    .rules h1 {
+      text-transform: uppercase;
+      font-family: 'Roboto', sans-serif;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 3px;
+      font-weight: 100;
+    }
+
+    .rules h2 {
+      font-size: 26px;
+      line-height: 34px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      display: block;
+      background-color: #1a191a;
+      margin: 0;
+      cursor: pointer;
+    }
+    .rules p {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 17px;
+      line-height: 26px;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      max-height: 1200px;
+      opacity: 1;
+      transform: translate(0, 0);
+      margin-top: 14px;
+      z-index: 2;
+    }
+  </style>
+  <div class="rules">
+    <h1>
+      <b>THY LAW</b>
+    </h1>
+  <p>1. NO CHILD PORN<br>2. NO NORMAL PORN<br>3. NO KID GORE (ONLY AFRICAN KID GORE IS ALLOWED)<br>4. NO MAKING FAKE UTTP SERVERS<br>5. NO INFIGHTING<br>6. NO TROLLING</p>
+  </div>
+</body>
+</html>
